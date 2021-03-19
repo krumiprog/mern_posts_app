@@ -1,0 +1,21 @@
+.post-form {
+  position: fixed;
+  top: 70px;
+  width: 350px;
+  left: calc(50% - 175px);
+}
+
+form {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+form * {
+  box-sizing: border-box;
+  height: 30px;
+}
